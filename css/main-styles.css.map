@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": ";ACAA,kBAAkB;AAClB,uCAAuC;AACvC,kEAAkE;AAClE,kEAAkE;AAElE,AAAA,UAAU,CAAA;EACN,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,IAAI;CACzB;;ACTD,kBAAkB;AAClB,uCAAuC;AACvC,kEAAkE;AAElE,AAAA,UAAU,CAAA;EACN,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,GAAG;CACxB;;ACRD,kBAAkB;AAClB,uCAAuC;AACvC,kEAAkE;ACFlE,kBAAkB;AAClB,uCAAuC;AACvC,kEAAkE;ACFlE,kBAAkB;AAClB,uCAAuC;AACvC,kEAAkE;ALIlE,yBAAyB;AACzB,AAAA,IAAI,CAAA;EACA,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;AACD,AAAA,CAAC,EAAC,CAAC,AAAA,OAAO,EAAC,CAAC,AAAA,MAAM,CAAA;EACd,UAAU,EAAE,OAAO;CACtB",
+    "sources": [
+        "main-styles.scss",
+        "_s1-styles.scss",
+        "_s2-styles.scss",
+        "_s3-styles.scss",
+        "_s4-styles.scss",
+        "_s5-styles.scss"
+    ],
+    "names": [],
+    "file": "main-styles.css"
+}

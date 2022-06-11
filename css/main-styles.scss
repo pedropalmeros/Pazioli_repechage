@@ -1,0 +1,15 @@
+@import './s1-styles';
+@import './s2-styles';
+@import './s3-styles';
+@import './s4-styles';
+@import './s5-styles';
+
+/** GLOBAL PROPERTIES **/
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}

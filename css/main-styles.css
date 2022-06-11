@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/*   SECCIÓN 1  */
+/* Recuerda no modificar la BODY ni **/
+/* RECUERDA QUE TUS CLASES DEBEN DE COMENZAR CON s1-nombre_clase*/
+/****************************************************************/
+.section-1 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+/*   SECCIÓN 2  */
+/* Recuerda no modificar la BODY ni **/
+/* RECUERDA QUE TUS CLASES DEBEN DE COMENZAR CON s2-nombre_clase*/
+.section-2 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+/*   SECCIÓN 3  */
+/* Recuerda no modificar la BODY ni **/
+/* RECUERDA QUE TUS CLASES DEBEN DE COMENZAR CON s3-nombre_clase*/
+/*   SECCIÓN 4  */
+/* Recuerda no modificar la BODY ni **/
+/* RECUERDA QUE TUS CLASES DEBEN DE COMENZAR CON s4-nombre_clase*/
+/*   SECCIÓN 5  */
+/* Recuerda no modificar la BODY ni **/
+/* RECUERDA QUE TUS CLASES DEBEN DE COMENZAR CON s5-nombre_clase*/
+/** GLOBAL PROPERTIES **/
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+/*# sourceMappingURL=main-styles.css.map */
