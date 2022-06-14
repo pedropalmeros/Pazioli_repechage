@@ -578,6 +578,102 @@ section {
 /*   SECCIÓN 3  */
 /* Recuerda no modificar la BODY ni **/
 /* RECUERDA QUE TUS CLASES DEBEN DE COMENZAR CON s3-nombre_clase*/
+.container_3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+  width: 320px;
+  height: 1356px;
+  left: -0.45px;
+  background: #F5F5F5;
+}
+
+.container_3 h1 {
+  text-align: center;
+}
+
+.container_3 .box_3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container_3 .item1_3 {
+  width: 250px;
+  left: 49px;
+  top: 2083px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 28px 64px 12px;
+          box-shadow: 0px 28px 64px 12px;
+  border-radius: 8px;
+}
+
+.container_3 .item2_3 {
+  width: 250px;
+  left: 49px;
+  top: 2083px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 28px 64px 12px;
+          box-shadow: 0px 28px 64px 12px;
+  border-radius: 8px;
+}
+
+.container_3 .item3_3 {
+  width: 250px;
+  left: 49px;
+  top: 2083px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 28px 64px 12px;
+          box-shadow: 0px 28px 64px 12px;
+  border-radius: 8px;
+}
+
+@media only screen and (min-width: 768px) {
+  .container_3 .container_3 {
+    width: 768px;
+    background: #F5F5F5;
+  }
+  .container_3 .box_3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .container_3 .item1_3 {
+    padding: 1.25rem;
+  }
+  .container_3 .item1_3 img {
+    margin-top: -100px;
+  }
+  .container_3 .item2_3 {
+    padding: 1.25rem;
+  }
+  .container_3 .item2_3 img {
+    margin-top: -100px;
+  }
+  .container_3 .item3_3 {
+    padding: 1.25rem;
+  }
+  .container_3 .item3_3 img {
+    margin-top: -100px;
+  }
+}
+
 /*   SECCIÓN 4  */
 /* Recuerda no modificar la BODY ni **/
 /* RECUERDA QUE TUS CLASES DEBEN DE COMENZAR CON s4-nombre_clase*/
