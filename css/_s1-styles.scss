@@ -3,8 +3,391 @@
 /* RECUERDA QUE TUS CLASES DEBEN DE COMENZAR CON s1-nombre_clase*/
 /****************************************************************/
 
-.section-1{
-    width: 100px;
+
+header {
+    margin: 0, auto;
+    top: 0;
+    background-color: #fff;
+    height: 90px;
+    width: 960px;
+    display: inline-block;
+    position: relative;
+  }
+  
+  header nav {
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 100%;
+  }
+  
+  header nav .logo {
+    position: absolute;
+    width: 88px;
+    height: 44px;
+    left: 32px;
+    top: 32px;
+  }
+  
+  header nav .menu {
+    position: absolute;
+    width: 397px;
+    height: 32px;
+    left: 460px;
+    top: 34px;
+    gap: 20px;
+  }
+  
+  header nav .menu a {
+    font-family: "Raleway", "sans-serif";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    color: black;
+    padding-right: 10px;
+  }
+  
+  header nav .home-pag1 {
+    width: 43px;
+    height: 16px;
+    left: 460px;
+    top: 41px;
+  }
+  
+  header nav .pianos-pag1 {
+    width: 48px;
+    height: 16px;
+    left: 525x;
+    top: 41px;
+  }
+  
+  header nav .estudiante-pag1 {
+    width: 108px;
+    height: 16px;
+    left: 596x;
+    top: 41px;
+  }
+  
+  header nav .boton-contactanos-pag1 {
+    position: absolute;
+    width: 129px;
+    height: 32px;
+    left: 690px;
+    top: 27px;
+    font-family: "Raleway", "sans-serif";
+    font-style: normal;
+    background-color: black;
+    font-weight: 700;
+    border-radius: 7px;
+    font-size: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: 0;
+    line-height: 16px;
+  }
+  
+  header nav .boton-contactanos-pag1 a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    padding-top: 6px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #ffffff;
+    padding-left: 15px;
+  }
+  
+  header nav .carrito {
+    position: absolute;
+    right: 5%;
+    top: 0px;
+    bottom: 17.14%;
+  }
+  
+  body {
+    background-color: #ffffff;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  section {
+    height: 900px;
+  }
+  
+  .texto-pag1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    top: 40px;
+  }
+  
+  .p-pag1 {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 19px;
+    color: #858585;
+    font-family: "Raleway", "sans-serif";
+  }
+  
+  .h1-pag1 {
+    position: relative;
+    display: block;
+    font-family: 'Abril Fatface';
+    font-weight: 400;
+    font-size: 56px;
+    letter-spacing: 0.05em;
+    font-style: normal;
+    line-height: 76px;
+    color: #000000;
+  }
+  
+  .botones-pag1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 16px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 100px;
-    background-color: blue;
-}
+  }
+  
+  .boton-pag1-1 {
+    width: 129px;
+    height: 32px;
+    left: 343px;
+    top: 273px;
+    font-family: "Raleway", "sans-serif";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    letter-spacing: 0.05em;
+    background-color: black;
+    color: #fff;
+    border-radius: 7px;
+    border: 0;
+    text-decoration: none;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .boton-pag1-1 a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  
+  .boton-pag1-2 {
+    width: 129px;
+    height: 32px;
+    left: 488px;
+    top: 273px;
+    font-family: "Raleway", "sans-serif";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    letter-spacing: 0.05em;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 7px;
+    text-decoration: none;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+  .boton-pag1-2 a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  
+  .piano-pag1-desktop {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 90px;
+    margin-left: 90px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .main-pag1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    height: 630px;
+    width: 960px;
+  }
+  
+  .piano-pag1-mobile {
+    display: none;
+  }
+  
+  .redes-sociales-pag1 {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 25px;
+    left: 863px;
+    top: 430px;
+  }
+  
+  @media screen and (max-width: 320px) {
+    .menu {
+      display: none;
+    }
+    .boton-contactanos-pag1 {
+      visibility: hidden;
+    }
+    .carrito {
+      float: right;
+    }
+    .piano-pag1-desktop {
+      visibility: hidden;
+    }
+    .piano-pag1-mobile {
+      position: absolute;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: 90px;
+      margin-left: 90px;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+    }
+    .texto-pag1 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .p-pag1 {
+      width: 176px;
+      height: 19px;
+      top: 139px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      text-align: center;
+      letter-spacing: 0.05em;
+    }
+    .h1-pag1 {
+      height: 62px;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 43px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      text-align: center;
+      letter-spacing: 0.05em;
+    }
+    .main-pag1 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      position: relative;
+      height: 630px;
+      width: 320px;
+    }
+    .redes-sociales-pag1 {
+      display: none;
+    }
+  }

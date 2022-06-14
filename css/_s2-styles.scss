@@ -2,8 +2,176 @@
 /* Recuerda no modificar la BODY ni **/
 /* RECUERDA QUE TUS CLASES DEBEN DE COMENZAR CON s2-nombre_clase*/
 
-.section-2{
-    width: 100px;
-    height: 100px;
-    background-color: red;
-}
+.pagina_2 {
+    max-width: 960px;
+    min-width: 320px;
+    margin: 0 auto;
+    color: white;
+    margin-bottom: 50rem;
+
+  }
+  
+  .pagina_2 h2 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32.38px;
+    max-width: 960px;
+    text-align: center;
+  }
+  
+  .pagina_2 p {
+    text-align: center;
+  }
+  
+  .modelo-de-clase h2 {
+    color: black;
+  }
+  
+  .p2-background-base {
+    height: 778px;
+    width: auto;
+    background-color: transparent;
+    z-index: -2;
+  }
+  
+  .p2-background-image-base {
+    height: 800px;
+    width: auto;
+    background-image: url("../img/Group 2280.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: -800px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dist-info {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: (1fr)[2];
+        grid-template-rows: repeat(2, 1fr);
+  }
+  
+  .img-evony {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .p2-evony-info-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .dist-info {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: (1fr)[2];
+        grid-template-rows: repeat(2, 1fr);
+    gap: 0rem;
+  }
+  
+  @media (min-width: 786px) {
+    .dist-info {
+      -ms-grid-rows: unset;
+          grid-template-rows: unset;
+      -ms-grid-columns: (1fr)[2];
+          grid-template-columns: repeat(2, 1fr);
+    }
+    .evony-description {
+      -ms-grid-row: 1;
+      -ms-grid-row-span: 1;
+      grid-row: 1/2;
+      text-align: center;
+    }
+  }
+  
+  .valoracion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  .valoracion p {
+    margin: 0;
+    padding: 0;
+    margin-left: 1rem;
+  }
+  
+  .valoracion .star {
+    width: 16px;
+    height: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .p2-feature {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: white;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 7px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .p2-feature .dot {
+    height: 4px;pagina_2
+  .p2-feature .feture-evony {
+    display: inline-block;
+  }
+  
+  @media (min-width: 786px) {
+    .year {
+      color: transparent;
+    }
+  }
+  
+  .btn_shop_p2 {
+    background-color: black;
+    height: 32px;
+    width: 228px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }

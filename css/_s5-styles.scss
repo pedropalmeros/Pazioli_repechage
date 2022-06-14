@@ -1,3 +1,332 @@
 /*   SECCIÓN 5  */ 
 /* Recuerda no modificar la BODY ni **/
 /* RECUERDA QUE TUS CLASES DEBEN DE COMENZAR CON s5-nombre_clase*/
+.s5-conoce-a-nuestros-partners_clase{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    //font-family: ;
+}
+
+
+.s5-boton2_clase,.s5-boton3_clase,.s5-boton5_clase,.s5-boton6_clase{
+    position: relative;
+    display: none;
+    flex-direction: row;
+    background-color: black;
+    border-radius: 1000px;
+    text-decoration: none;  
+    width: 305px;
+    height: 103.21px;
+    cursor: pointer;
+   
+}
+.s5-contenedor4_clase{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 175px;
+    background-color:rgba(255, 255, 255, 0.5);
+    border: 0.889758px solid #FFFFFF;
+    border-radius: 50%;
+    width: 88.98px;
+    height: 88.98px;
+    top: 8px;
+    left:194px;
+}
+.s5-boton1_clase, .s5-boton7_clase{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    border-top-right-radius:25px;
+    border-bottom-right-radius:25px;
+    border-top-left-radius:50px;
+    border-bottom-left-radius: 50px;
+    width: 305px;
+    height: 103.21px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.s5-boton4_clase{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    border-top-right-radius:50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    margin:20px;
+    width: 290px;
+    height: 103.21px;
+    text-decoration: none;
+}
+.s5-contenedor1_clase, .s5-contenedor2_clase, .s5-contenedor3_clase, .s5-contenedor5_clase, .s5-contenedor6_clase, .s5-contenedor7_clase {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color:rgba(255, 255, 255, 0.5);
+    border: 0.889758px solid #FFFFFF;
+    border-radius: 50%;
+    width: 88.98px;
+    height: 88.98px;
+    top: 7px;
+    left: 5px;
+}
+.s5-icon1_clase, .s5-icon2_clase, .s5-icon3_clase, .s5-icon4_clase, .s5-icon5_clase, .s5-icon6_clase, .s5-icon7_clase {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: auto;
+}
+.s5-texto1_clase,.s5-texto2_clase,.s5-texto3_clase,.s5-texto5_clase,.s5-texto6_clase,.s5-texto7_clase{
+    position: relative;
+    left:30px;
+    top: 30px;
+    font-size: 40px;
+    color: white;  
+}
+.s5-texto4_clase{
+    position: relative;
+    right:35px;
+    top: 30px;
+    font-size: 40px;
+    color: white;
+
+} 
+.s5-desafio_clase{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.s5-redes_clase{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    .s5-facebook_clase{
+        position: relative;
+        bottom: 5px;
+        right: 25px;
+    }
+    .s5-tweet_clase{
+        position: relative;
+        bottom: 9px;
+        right: 26px;
+    }
+}
+.s5-nosotros_clase{
+    display: flex;
+    .s5-parrafo_clase{
+        display: flex;
+        align-items: center;
+        margin: 15px;
+        font-size: 35px;
+    } 
+    .s5-home_clase{
+        display: flex;;
+        margin: 15px;
+        font-size: 20px;
+    }
+    .s5-nuevo_clase{
+        display: flex;
+        margin: 15px;
+        font-size: 20px;
+    }
+    .s5-pianos_clase{
+        display: flex;
+        margin: 15px;
+        font-size: 20px;
+    }
+    .s5-conoce_clase{
+        display: flex;
+        margin: 15px;
+        font-size: 20px;
+        justify-content: space-evenly;
+    }
+}
+.s5-description_clase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.s5-contactanos_clase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .s5-contac_clase{
+        font-size: 35px;
+    }
+    .s5-contacto_clase{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    .s5-mexico_clase{
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width:768px){
+    .s5-boton3_clase, .s5-boton2_clase,.s5-boton5_clase, .s5-boton6_clase{
+        display: flex;
+    }
+}
+.section-main{
+  
+  background-image: url("/img/Rectangle 9.png");
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (min-width:768px) {
+        .s5-boton1_clase{
+            position: relative;
+            right: -100px;
+            top: 250px;
+            border-radius: 1000px;
+            width:328.32px;
+            height: 103.21px;
+        }
+        .s5-boton2_clase{
+            position: relative;
+            left: 500px;
+            top:150px;
+            width:328.32px;
+            height: 103.21px;
+        }
+        .s5-boton3_clase{
+            position: relative;
+            left: -2px;
+            top: 245px;
+            width:328.32px;
+            height: 103.21px;
+            .s5-contenedor3_clase{
+                position: relative;
+                left: 230px;
+            }
+            .s5-texto3_clase{
+                position: relative;
+                left: auto;
+            }
+        }
+        .s5-boton4_clase{
+            position: relative;
+            left: 330px;
+            bottom:-120px;
+            border-radius: 1000px;
+            width:328.32px;
+            height: 103.21px;
+            .s5-contenedor4_clase{
+                position: relative;
+                left: 230px;
+            }
+        }
+        .s5-boton5_clase{
+            position: relative;
+            left: 700px;
+            bottom: 0px;
+            width:328.32px;
+            height: 103.21px;
+            .s5-contenedor5_clase{
+                position: relative;
+                left: 230px;
+            }
+            .s5-texto5_clase{
+                display: flex;
+                position: relative;
+                left:-35px;
+            }
+        }
+        .s5-boton6_clase{
+            position: relative;
+            bottom: -100px;
+            right: -100px;
+            width:328.32px;
+            height: 103.21px;
+        }
+        .s5-boton7_clase{
+            position: relative;
+            bottom:0px ;
+            border-radius: 1000px;
+            left: 500px;
+            width:328.32px;
+            height: 103.21px;
+        }
+   
+}
+@media only screen and (min-width:768px) {
+    .s5-desafio_clase{
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        top: 100px;
+        left: 50px;
+        height: 200px;
+    }
+    .s5-redes_clase{
+        position: relative;
+        display: flex;
+        justify-content:flex-start;
+        top:100px;
+        left: 105px;
+        height: 20px;
+    }
+    .s5-nosotros_clase{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        bottom: 100px;
+        font-size: 1px;
+        right: 60px;
+    }
+    
+    .s5-contac_clase{
+        position: relative;
+        display: flex;
+        flex-direction:row;
+        left: 340px;
+        bottom: 400px;
+        }
+        .s5-mexico_clase{
+            display: flex;
+            position: relative;
+            top: -400px;
+            left: 300px;
+            
+        }
+        .s5-contacto_clase{
+            display: none;
+            position: relative;
+            bottom: 450px;
+            left: 380px;
+            
+        }
+        .s5-cr_clase{
+            display: flex;
+            position: relative;
+            right: 25px;
+            bottom: 350px;
+            font-size: 20px;
+        }
+        .s5-decor_clase{
+            display: flex;
+            position: relative;
+            right: 25px;
+            bottom: 350px;
+            font-size: 20px;
+        }
+        
+    }
+    .s5-mexico_clase{
+            display: flex;
+            align-items:none;
+            flex-direction: row;
+    }
+    .s5-conoce-a-nuestros-partners_clase{
+        font-size: 50px;
+    }
+
+    
+
